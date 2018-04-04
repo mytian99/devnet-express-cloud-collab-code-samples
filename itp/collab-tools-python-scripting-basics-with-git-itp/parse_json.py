@@ -9,12 +9,14 @@ with open("itp/collab-tools-python-scripting-basics-with-git-itp/cars.json") as 
 # What type of data is JSON?
 print("json_text is a", type(json_text))
 
-
 # Python handles the JSON parsing for you
 json_data = json.loads(json_text)
 
-
 # Print out the data type of the json_data object
-
+print (json_data)
+print ("the type of json_data is ", end=" ")
+print (type(json_data))
 
 # Write a for loop that prints out all of the makes and models
+for car in (json_data):
+    print (car["make"])

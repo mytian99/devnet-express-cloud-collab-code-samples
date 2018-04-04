@@ -1,0 +1,9 @@
+"args": [
+                "-r",
+                "Y2lzY29zcGFyazovL3VzL1JPT00vNDg0NzM3ZTAtMjRhOS0xMWU4LWI0MmItMTE3ZmNjZGRhOTQ2",
+                "-m",
+                "customize this chatops message"
+            ],
+            "env": {
+                "SPARK_ACCESS_TOKEN": "ODA2YjYzYjctMWI3ZC00MzkxLWFjZmMtMzI4MjUyYjg0ZjZlNTNlYzNkOWEtNmNk"
+            }
